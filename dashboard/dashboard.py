@@ -7,7 +7,7 @@ sns.set_theme(style='whitegrid')
 
 def create_day_df():
 
-    day_df = pd.read_csv("H:\Kuliah\Bangkit\Analisis_data\dashboard\day.csv")
+    day_df = pd.read_csv("https://raw.githubusercontent.com/Riffaldir/Proyek_Analisis_Data/refs/heads/master/dashboard/day.csv")
 
     datetime_columns = ["dteday"]
     for column in datetime_columns:
